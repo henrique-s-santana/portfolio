@@ -10,8 +10,6 @@ Aqui você encontra projetos desenvolvidos com **HTML** e **CSS**. Este site foi
 ## 🛠️ Tecnologias utilizadas
 - **HTML5**
 - **CSS3**
-- Git & GitHub
-- GitHub Pages (para hospedagem)
 
 ---
 
