@@ -9,6 +9,7 @@ body {
     color: #333; /* Cor do texto */
     background-color: #f4f4f4; /* Fundo cinza claro */
     line-height: 1.5; /* Espaçamento vertical entre linhas */
+    margin: 0;
 }
 
 header {
