@@ -173,7 +173,7 @@ nav ul li a:hover {
     left: 0;
     width: 190vh;
     height: 100vh;
-    background-color: #000000a8;
+    background-color: #ff000000;
     display: none;
     justify-content: center;
     align-items: center;
@@ -292,3 +292,4 @@ footer {
     }
 
 }
+
