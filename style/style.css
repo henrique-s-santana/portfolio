@@ -166,19 +166,19 @@ nav ul li a:hover {
     border-radius: 5px; /* Bordas arredondadas */
 }
 
-.overlay {
+/* .overlay {
     position: fixed;
     top: 0;
     left: 0;
-    width: 190vh;
-    height: 100vh;
+    width: 100vh;
+    height: auto;
     background-color: #00000000;
     display: none;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.overlay:target {
+/* .overlay:target {
     display: flex;
     flex-direction: column;
 }
@@ -198,7 +198,7 @@ nav ul li a:hover {
     height: auto;
     order: -1;
     margin-left: 85rem;
-}
+} */
 
 .paragrafo {
     text-align: center; /* Centraliza texto */
