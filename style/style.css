@@ -33,7 +33,7 @@ header {
     margin: 0 auto; /* Centraliza horizontalmente */
 }
 
-nav .logo a {
+nav .logo {
     font-weight: bold; /* Negrito */
     font-size: 20pt; /* Tamanho da fonte */
     color: #0000ff; /* Azul */
@@ -94,14 +94,13 @@ nav ul li a:hover {
     color: #fff; /* Texto branco */
     padding: 15px 30px; /* Espaçamento interno */
     border-radius: 10px; /* Bordas arredondadas */
-    transition: 600ms; /* Transição de 0.6s */
+    transition: 300ms; /* Transição de 0.6s */
+    box-shadow: 8px 8px 16px #bebebe,
+                -8px -8px 16px #ffff;
 }
 
 .botao:hover {
-    transform: scale(0.99); /* Leve redução no hover */
-    padding: 16px 30px; /* Aumenta levemente a altura */
-    box-shadow: 0 0 0 2px #fff, /* Sombra branca interna */
-                0 0 0 5px #007bff; /* Sombra azul externa */
+    transform: scale(1.1); /* Leve redução no hover */
 }
 
 .secao {
@@ -138,11 +137,11 @@ nav ul li a:hover {
     border-radius: 15px; /* Bordas arredondadas */
     max-height: 480px; /* Altura máxima */
     box-shadow: 0px 4px 20px black; /* Sombra */
-    transition: 600ms; /* Transição suave */
+    transition: 300ms; /* Transição suave */
 }
 
 .imagem img:hover {
-    transform: scale(1.2); /* Aumenta no hover */
+    transform: scale(1.1); /* Aumenta no hover */
     box-shadow: 0px 20px 40px black; /* Sombra mais forte */
 }
 
@@ -260,6 +259,48 @@ nav ul li a:hover {
     padding: 16px 30px; /* Aumenta levemente altura */
     box-shadow: 0 0 0 2px #fff, /* Sombra branca */
                 0 0 0 5px #007bff; /* Sombra azul */
+}
+
+
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* box-shadow: 12px 12px 20px #bebebe,
+                -12px -12px 20px #ffff;
+    border-radius: 12px;
+    padding: 15px 20px; */
+}
+
+.links ul li{
+    list-style: none;
+}
+
+.links img{
+    width: 50px;
+    height: auto;
+    transition: 300ms;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.547));
+}
+
+.links img:hover {
+    transform: scale(1.1);
+    
+}
+
+.li:hover {
+    filter: drop-shadow(0 0 10px #0000ff);
+}
+
+.gi:hover {
+    filter: drop-shadow(0 0 10px #00000076);
+}
+
+.gma:hover {
+    filter: drop-shadow(0 0 10px #ff0000);
+}
+
+.ins:hover {
+    filter: drop-shadow(0 0 10px #ff00fb);
 }
 
 footer {
