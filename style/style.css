@@ -204,64 +204,6 @@ nav ul li a:hover {
     text-align: center; /* Centraliza texto */
 }
 
-.formulario-contato {
-    display: flex; /* Layout flexível */
-    flex-direction: column; /* Coloca elementos em coluna */
-    max-width: 600px; /* Largura máxima */
-    margin: 0 auto; /* Centraliza horizontalmente */
-}
-
-.formulario-contato input {
-    width: 100%; /* Ocupa toda largura */
-    padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaço inferior */
-    border: 1px solid #ddd; /* Borda cinza clara */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-family: "Montserrat"; /* Fonte */
-    transition: border-color 0.3s ease; /* Transição suave na cor da borda */
-}
-
-.formulario-contato input:focus {
-    border-color: #007bff; /* Borda azul no foco */
-    outline: none; /* Remove contorno padrão */
-}
-
-.formulario-contato textarea {
-    width: 100%; /* Largura total */
-    padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaço inferior */
-    border: 1px solid #ddd; /* Borda cinza */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-family: "Montserrat"; /* Fonte */
-    transition: border-color 0.3s ease; /* Transição na cor da borda */
-    resize: none; /* Desativa redimensionamento */
-}
-
-.formulario-contato textarea:focus {
-    border-color: #007bff; /* Borda azul no foco */
-    outline: none; /* Remove contorno padrão */
-}
-
-.botao-enviar {
-    display: inline-block; /* Bloco em linha */
-    background-color: #007bff; /* Azul */
-    text-decoration: none; /* Sem sublinhado */
-    color: #fff; /* Branco */
-    padding: 15px 30px; /* Espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas */
-    transition: 600ms; /* Transição suave */
-    border-style: hidden; /* Remove borda */
-    width: 635px; /* Largura fixa */
-}
-
-.botao-enviar:hover {
-    transform: scale(0.99); /* Leve redução no hover */
-    padding: 16px 30px; /* Aumenta levemente altura */
-    box-shadow: 0 0 0 2px #fff, /* Sombra branca */
-                0 0 0 5px #007bff; /* Sombra azul */
-}
-
-
 .links ul {
     display: flex;
     justify-content: space-evenly;
