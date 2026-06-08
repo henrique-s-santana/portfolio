@@ -1,6 +1,5 @@
 html {
-    scroll-behavior: smooth; /* Rolagem suave ao clicar em links âncora */
-    scrollbar-color: #00fff2 #ffffff; /* Cor da barra de rolagem (primeiro: polegar, segundo: fundo) */
+    scroll-behavior: smooth; /* Rolagem suave ao clicar em links âncora */
     cursor: cell; /* Define o cursor padrão como formato de célula */
 }
 
@@ -36,7 +35,7 @@ header {
 nav .logo {
     font-weight: bold; /* Negrito */
     font-size: 20pt; /* Tamanho da fonte */
-    color: #0000ff; /* Azul */
+    color: #007bff; /* Azul */
     transition: 600ms; /* Transição suave para transformações */
     text-decoration: none; /* Remove sublinhado */
 }
