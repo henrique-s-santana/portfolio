@@ -1,5 +1,6 @@
 html {
-    scroll-behavior: smooth; /* Rolagem suave ao clicar em links âncora */
+    scroll-behavior: smooth; /* Rolagem suave ao clicar em links âncora */
+    scrollbar-color: #00fff2 #ffffff; /* Cor da barra de rolagem (primeiro: polegar, segundo: fundo) */
     cursor: cell; /* Define o cursor padrão como formato de célula */
 }
 
@@ -22,6 +23,7 @@ header {
     border-top: 2px solid #FFFFFF75;
     border-left: 2px solid #FFFFFF75;
     overflow: hidden;
+    z-index: 9999;
 }
 
 .nav-bar {
@@ -35,7 +37,7 @@ header {
 nav .logo {
     font-weight: bold; /* Negrito */
     font-size: 20pt; /* Tamanho da fonte */
-    color: #007bff; /* Azul */
+    color: #0000ff; /* Azul */
     transition: 600ms; /* Transição suave para transformações */
     text-decoration: none; /* Remove sublinhado */
 }
@@ -137,11 +139,14 @@ nav ul li a:hover {
     max-height: 480px; /* Altura máxima */
     box-shadow: 0px 4px 20px black; /* Sombra */
     transition: 300ms; /* Transição suave */
+    position: relative;
+    z-index: 1;
 }
 
 .imagem img:hover {
     transform: scale(1.1); /* Aumenta no hover */
     box-shadow: 0px 20px 40px black; /* Sombra mais forte */
+    z-index: 2;
 }
 
 .grid-portifolio {
@@ -274,5 +279,4 @@ footer {
     }
 
 }
-
 
